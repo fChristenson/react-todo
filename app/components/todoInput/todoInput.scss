@@ -1,0 +1,23 @@
+.todo-input-container {
+
+  &__input, &__button {
+
+    padding: 1em;
+    font-size: 1.6em;
+    letter-spacing: 0.05em;
+
+  }
+
+  &__input {
+
+    outline: 0;
+
+  }
+
+  &__button:hover {
+
+    cursor: pointer;
+
+  }
+
+}

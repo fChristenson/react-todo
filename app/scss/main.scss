@@ -1,0 +1,18 @@
+@import "../components/todoList/todoList.scss";
+@import "../components/todo/todo.scss";
+@import "../components/todoInput/todoInput.scss";
+
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-size: 62.5%;
+
+}

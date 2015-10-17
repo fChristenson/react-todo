@@ -1,0 +1,21 @@
+.todo {
+
+  padding: 1.2em;
+  font-size: 1.8em;
+  letter-spacing: 0.1em;
+
+  &__button {
+
+    border: none;
+    background: transparent;
+    margin-right: 1em;
+
+    &:hover {
+
+      cursor: pointer;
+      color: red;
+
+    }
+  }
+
+}
