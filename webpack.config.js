@@ -1,3 +1,8 @@
+var autoprefixer = require('autoprefixer');
+var stylelint = require('stylelint');
+var precss = require('precss');
+var webpack = require('webpack');
+
 module.exports = {
 
   context: __dirname + '/app',
@@ -16,11 +21,11 @@ module.exports = {
       {
         test:   /\.scss$/,
         exclude: /node_modules/,
-        loaders: ['style', 'css', 'sass']
+        loader: 'style-loader!css-loader!postcss-loader'
       }
     ]
   },
   postcss: function () {
-    return [autoprefixer, precss];
+    return [precss, autoprefixer];
   }
 };

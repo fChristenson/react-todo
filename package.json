@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "make": "webpack"
+    "make": "webpack -p"
   },
   "author": "",
   "license": "ISC",
@@ -25,6 +25,7 @@
     "sass-loader": "^3.0.0",
     "scss-loader": "0.0.1",
     "style-loader": "^0.12.4",
+    "stylelint": "^2.0.0",
     "underscore": "^1.8.3",
     "webpack": "^1.12.2"
   }
